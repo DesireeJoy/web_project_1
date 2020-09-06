@@ -1,3 +1,7 @@
+$darkergray: #1f;
+$lightergray: #f2;
+$siteblue: #2f80ed;
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
