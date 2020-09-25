@@ -86,7 +86,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 4;
 }
 
@@ -98,7 +98,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 3;
 }
 
