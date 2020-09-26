@@ -144,7 +144,8 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
-  color: blue;
+  color: #2f80ed;
+  font-weight: normal;
 }
 
 .two-columns__paragraph {
@@ -158,43 +159,45 @@
   font-weight: bold;
 }
 
-.section-subtitle {
-  margin: 0 auto 60px auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table__break {
-  flex-basis: 100%;
-  height: 60px;
-}
-
-.table__heading {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0 0 20px 0;
-  text-align: left;
-}
-
-.table__row {
+.table {
   width: 1100px;
+  padding-left: 0;
+  margin: 0 auto;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
   justify-content: space-between;
-}
-
-.table__text {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: left;
 }
 
 .table__cell {
   width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__theme_dark {
+  margin: 0 auto;
+}
+.table__cell_theme_dark {
+  width: 200px;
+  color: #f2f2f2;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .section__heading {
@@ -259,7 +262,7 @@
   font-weight: bold;
 }
 
-.footer_column-link {
+.footer__column-link {
   text-decoration: none;
   color: white;
   line-height: 30px;
@@ -303,41 +306,6 @@
   color: white;
 }
 
-.table__theme_dark {
-  margin: 0 auto;
-  width: 80%;
-  background-color: #1f1f1f;
-}
-
-.table__break_theme_dark {
-  flex-basis: 100%;
-  height: 80px;
-}
-
-.table__heading_theme_dark {
-  color: white;
-}
-
-.table__row_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: space-around;
-}
-
-.table__text_theme_dark {
-  color: white;
-}
-
-.table__cell_theme_dark {
-  color: white;
-  width: 200px;
-  z-index: 200;
-}
-
 .logo__place-footer {
   width: 183px;
   height: 35px;
@@ -355,7 +323,7 @@
 .footer_social-icon_text {
   text-decoration: none;
   color: white;
-  line-height: 26px;
+  line-height: 16px;
   padding-left: 10px;
 }
 .footer__column_content_copyright {
@@ -389,28 +357,4 @@
 .section__subheading_theme_dark {
   margin: 0 auto 80 auto;
   width: 60%;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-}
-
-.table__row_empty_theme_dark {
-  height: 80px;
-}
-
-.table__theme_dark {
-  margin: 80px auto 90px auto;
-  z-index: 2;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-}
-
-.footer_social-icon_container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
