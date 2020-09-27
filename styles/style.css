@@ -18,6 +18,8 @@
   flex-direction: column;
   justify-content: center;
   background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 .logo_place_header {
@@ -43,12 +45,13 @@
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 100px;
+  padding: 0 0 100px 0;
 }
 
 .table {
   margin: 0 auto;
   width: 1100px;
+  padding: 0;
 }
 
 .feynman {
@@ -61,7 +64,8 @@
   position: relative;
   display: block;
   background-color: #f2f2f2;
-  padding-top: 100px;
+  padding: 100px 0 0 0;
+  margin: 0;
 }
 
 .kaufman {
@@ -73,15 +77,17 @@
   z-index: -5;
   overflow: hidden;
   padding: 90px 0;
+  margin: 0;
 }
 
 .description {
   display: flex;
   flex-direction: row;
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: baseline;
+  padding: 0;
 }
 
 .header__title {
@@ -98,11 +104,12 @@
   width: 388px;
   position: absolute;
   bottom: 30px;
+  left: 64px;
   z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 0 0 64px;
+  margin: 0;
   z-index: 3;
 }
 
@@ -127,8 +134,8 @@
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
-  z-index: 1;
   right: 0;
+  z-index: 1;
 }
 
 .two-columns__span-accent {
@@ -161,11 +168,14 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  padding: 0;
 }
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  padding: 0;
+  margin: 0;
 }
 
 .table {
@@ -267,7 +277,7 @@
 .feynman__link {
   position: absolute;
   right: 48px;
-  margin: auto 0;
+  top: auto;
   text-decoration: none;
   line-height: 51px;
   font-size: 36px;
@@ -282,9 +292,8 @@
 
 .footer {
   min-height: 350px;
-  padding-top: 60px;
+  padding: 60px 0 0 0;
   margin: 0 auto;
-  margin-bottom: 0;
   background-color: #1f1f1f;
 }
 
