@@ -1,0 +1,9 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0;
+}
