@@ -2,3 +2,12 @@
 @import url("../cards/__image/cards__image.css");
 @import url("../cards/__item/cards__item.css");
 @import url("../cards/__title/cards__title.css");
+
+.cards {
+  min-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
