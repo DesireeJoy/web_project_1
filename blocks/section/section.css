@@ -1,0 +1,6 @@
+@import url("../section/__heading/section__heading.css");
+@import url("../section/__subheading/section__subheading.css");
+
+.section {
+  width: 60%;
+}
