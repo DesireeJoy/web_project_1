@@ -4,6 +4,7 @@
 @import url("../cards/__title/cards__title.css");
 
 .cards {
+<<<<<<< HEAD
   width: 920px;
   margin: 0 auto;
   display: flex;
@@ -12,4 +13,12 @@
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
+=======
+  min-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+>>>>>>> 8fb933992e3cbe60a236dffb8a6651fb29d31603
 }

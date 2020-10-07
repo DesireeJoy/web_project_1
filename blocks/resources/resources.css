@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("./__logo-zone/resources__logo-zone.css");
 @import url(./__logo/resources__logo.css);
 
@@ -5,3 +6,7 @@
   padding: 100px 0 217px;
   text-align: center;
 }
+=======
+@import url("../resources/__logo/resources__logo.css");
+@import url("../resources/__logo-zone/resources__logo-zone.css");
+>>>>>>> 8fb933992e3cbe60a236dffb8a6651fb29d31603

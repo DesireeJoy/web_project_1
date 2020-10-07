@@ -2,7 +2,11 @@
 @import url("../video/__iframes/video__iframes.css");
 
 .video {
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  margin: 100px auto;
+>>>>>>> 8fb933992e3cbe60a236dffb8a6651fb29d31603
   width: 90%;
   text-align: center;
 }

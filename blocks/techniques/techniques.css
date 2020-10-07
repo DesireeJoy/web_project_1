@@ -1,8 +1,14 @@
 .techniques {
+<<<<<<< HEAD
   margin: 0 auto;
   width: 90%;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+  margin: 100px auto;
+  width: 90%;
+  text-align: center;
+>>>>>>> 8fb933992e3cbe60a236dffb8a6651fb29d31603
 }
