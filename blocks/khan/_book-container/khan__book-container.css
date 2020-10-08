@@ -2,4 +2,5 @@ khan__book-container {
   display: flex;
   align-items: flex-start;
   overflow: hidden;
+  height: 608px;
 }

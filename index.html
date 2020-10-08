@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Learning how to learn</title>
   </head>
 
@@ -32,46 +31,46 @@
         <div class="header__square-pic rotation"></div>
       </header>
 
-      <!-- Description Block -->
-
-      <section class="description">
-        <div class="two-columns">
-          <h2 class="two-columns__brief">The main problem with education</h2>
-          <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">
-              Whether it's at school or university, the one thing no one ever
-              teaches you is how to teach yourself. All you actually do is
-              memorize information that you will regurgitate when you take the
-              test. You get drilled on how to solve specific exercises so that
-              while you know exactly what you need to do when exam times comes
-              around, do you truly understand the subject material? All you've
-              really learned is how to pass that one test. Once the test is
-              over, the information in your head has outlived it's usefulness.
-            </p>
-            <p class="two-columns__paragraph">
-              <span class="two-columns__span-accent">Conclusion:</span>
-              Knowing how to study is absolutely essential, but for some reason,
-              this point is too often overlooked. So, what can we do to remedy
-              this?
-            </p>
-            <p class="two-columns__paragraph">
-              Here are certain techniques and exercises that can be applied to
-              the learning process to help make it more efficient and engaging.
-              This is exactly what we do at Practicum.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <main class="content">
+        <!-- Description Block -->
+
+        <section class="description">
+          <article class="two-columns">
+            <h2 class="two-columns__brief">The main problem with education</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                Whether it's at school or university, the one thing no one ever
+                teaches you is how to teach yourself. All you actually do is
+                memorize information that you will regurgitate when you take the
+                test. You get drilled on how to solve specific exercises so that
+                while you know exactly what you need to do when exam times comes
+                around, do you truly understand the subject material? All you've
+                really learned is how to pass that one test. Once the test is
+                over, the information in your head has outlived it's usefulness.
+              </p>
+              <p class="two-columns__paragraph">
+                <span class="two-columns__span-accent">Conclusion:</span>
+                Knowing how to study is absolutely essential, but for some
+                reason, this point is too often overlooked. So, what can we do
+                to remedy this?
+              </p>
+              <p class="two-columns__paragraph">
+                Here are certain techniques and exercises that can be applied to
+                the learning process to help make it more efficient and
+                engaging. This is exactly what we do at Practicum.
+              </p>
+            </div>
+          </article>
+        </section>
+
         <!-- Techniques Block -->
 
         <section class="techniques">
           <h2 class="section-title">Learning Techniques</h2>
           <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
 
-          <div class="cards">
-            <div class="cards__item">
+          <ul class="cards">
+            <li class="cards__item">
               <img
                 class="cards__image"
                 alt="Book held in hands with the title 101 essays to change the way you think"
@@ -82,9 +81,9 @@
                 Deep understanding comes from being able to toggle back and
                 forth between focused and diffused thinking.
               </p>
-            </div>
+            </li>
 
-            <div class="cards__item">
+            <li class="cards__item">
               <img
                 class="cards__image"
                 alt="Marble statue of a young satyr from the waist up posed as if in thought"
@@ -95,9 +94,9 @@
                 Improving your ability to remember key bits of information helps
                 to connect different parts of the brain.
               </p>
-            </div>
+            </li>
 
-            <div class="cards__item">
+            <li class="cards__item">
               <img
                 class="cards__image"
                 alt="distant view of people on the deck of a ship in black and white"
@@ -108,9 +107,9 @@
                 Deep understanding comes from being able to toggle back and
                 forth between focused and diffused thinking.
               </p>
-            </div>
+            </li>
 
-            <div class="cards__item">
+            <li class="cards__item">
               <img
                 class="cards__image"
                 alt="Book held in hands with the title 101 essays to change the way you think"
@@ -121,8 +120,9 @@
                 When listening to your teacher, think up a good question,
                 something that you're really itching to know.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+
+            <li class="cards__item">
               <img
                 class="cards__image"
                 alt="Picture of one hand holding up several books in a variety of colors"
@@ -134,8 +134,8 @@
                 process in different settings. Only then can you be truly
                 certain you've understood something.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <!-- Video Block -->
@@ -143,38 +143,27 @@
         <section class="video">
           <h2 class="section-title">TED talks</h2>
           <p class="section-subtitle">For lovers of procrastination</p>
-          <div class="video__iframes">
-            <div class="video__iframe">
+
+          <ul class="video__iframes">
+            <li class="video__iframe">
               <iframe
-                id="ytplayer"
-                type="text/html"
-                width="515"
-                height="289.6875"
+                class="video__iframe"
                 src="https://www.youtube.com/embed/5MgBikgcWnY"
-                frameborder="0"
-                allowfullscreen
-                >A youtube video about the first 20 hours</iframe
-              >
-            </div>
-            <div class="video__iframe">
+              ></iframe>
+            </li>
+            <li class="video__iframe">
               <iframe
-                id="ytplayer"
-                type="text/html"
-                width="515"
-                height="289.6875"
+                class="video__iframe"
                 src="https://www.youtube.com/embed/arj7oStGLkU"
-                frameborder="0"
-                allowfullscreen
-                >Inside the mind of a master procrastinator</iframe
-              >
-            </div>
-          </div>
+              ></iframe>
+            </li>
+          </ul>
         </section>
 
         <!-- Oakley Block -->
 
         <section class="oakley">
-          <div class="two-columns">
+          <article class="two-columns">
             <h2 class="two-columns__brief">Barbara Oakley's story.</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
@@ -192,7 +181,7 @@
                 deeper, more comprehensive understanding of the subject matter.
               </p>
             </div>
-          </div>
+          </article>
         </section>
 
         <!-- feynman Block -->
@@ -267,17 +256,22 @@
           <div class="khan__container">
             <p class="khan__author">Salman Khan</p>
             <h2 class="khan__title">The One World Schoolhouse</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Khan's passion and innovation is transforming learning for
               millions of students worldwide. The One World Schoolhouse is a
               must-read for all who are committed to improving education so
               students everywhere can gain the skills and knowledge to be
               successful in school, careers and life.
-            </p>
+            </blockquote>
             <p class="khan__quote-author">George Lucas</p>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
+              <img
+                class="khan__book-pic"
+                src="images/khan-book-2.png"
+                alt="large image of the book cover framed in wood reading The One World Schoolhouse with a subtitle of Education Reimagined. The bottom of the book cropped off"
+              />
+
               <a href="#" class="link khan__buy-link">Buy book →</a>
             </div>
           </div>
