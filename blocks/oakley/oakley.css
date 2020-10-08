@@ -1,5 +1,4 @@
 .oakley {
-<<<<<<< HEAD
   background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
@@ -7,7 +6,4 @@
   justify-content: center;
   align-items: baseline;
   padding: 60px 10% 0 10%;
-=======
-  margin: 0 auto;
->>>>>>> 8fb933992e3cbe60a236dffb8a6651fb29d31603
 }
