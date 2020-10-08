@@ -2,10 +2,12 @@
 @import url("../footer/__column/footer__column.css");
 @import url("../footer/__column-heading/footer__column-heading.css");
 @import url("../footer/__column-links/footer__column-links.css");
+@import url("../footer/__column-link/footer__column-link.css");
 @import url("../footer/__columns/footer__columns.css");
 @import url("../footer/__social-icon/footer__social-icon.css");
 
 .footer {
+  box-sizing: border-box;
   min-height: 350px;
   padding: 60px 0 0 0;
   margin: 0 auto;
